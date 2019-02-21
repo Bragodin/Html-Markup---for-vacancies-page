@@ -1,0 +1,22 @@
+nav {
+  position: fixed;
+  height: 100vh;
+  background: #DCDCDC;
+  width: 300px;
+  box-shadow: 0 0 12px #DCDCDC;
+  color: #A9A9A9; }
+  nav ul li {
+    list-style-type: none;
+    margin-bottom: 40px; }
+    nav ul li h1 {
+      font-size: 23px;
+      font-weight: lighter;
+      padding-top: 20px; }
+    nav ul li a {
+      text-decoration: none;
+      color: #3f3f3f;
+      font-size: 25px;
+      box-sizing: border-box; }
+    nav ul li a:hover {
+      border: 1px solid black;
+      background: black; }
