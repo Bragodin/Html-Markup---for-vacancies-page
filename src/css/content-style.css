@@ -1,0 +1,24 @@
+main {
+  padding-top: 250px;
+  padding-left: 260px;
+  width: 88%;
+  margin-top: -230px; }
+  main ul li {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #DCDCDC; }
+    main ul li p {
+      padding-right: 280px; }
+  main ul li:last-child {
+    border: none; }
+  main ul li:first-child {
+    height: 35px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    align-items: flex-start; }
+    main ul li:first-child p:first-child {
+      padding-right: 340px; }
+    main ul li:first-child p {
+      padding-right: 280px; }

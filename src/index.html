@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Vacancies</title>
 </head>
 <body>
@@ -17,5 +18,46 @@
             <li class="menu-link"><a href="#">Management</a></li>
         </ul>
     </nav>
+    <header>
+        <form action="">
+            <button type="submit"><i class="fas fa-search"></i></button> 
+            <input type="search" name="searching" autocomplete="off" placeholder="Search for vacancies, candidates...">
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+        </form>
+        <h1>Vacancies</h1>
+        <div class="header-filter">
+            <label for="vac-select">Filter by</label>
+            <select name="" id="vac-select">
+                <option value="">val1</option>
+                <option value="">val2</option>
+            </select>
+            <input type="search" name="" id="">
+            <input type="search" name="" id="">
+        </div>
+    </header>
+    <main>
+        <ul>
+            <li><p>Vacancy</p><p>something</p><p>something</p><p>Candidates</p></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+            <li><p>Java Developer </p><p>something</p><p>something</p><a href="#">View Candidates</a></li>
+        </ul>
+    </main>
+    <footer>
+        <button><i class="fas fa-plus"></i></button>
+        <label for="">Rows per page</label>
+        <select name="number-page" id="">
+            <option value="">10</option>
+            <option value="">20</option>
+            <option value="">30</option>
+        </select>
+        <p>10 -10 of 100</p>
+        <a href="#"><i class="fas fa-angle-left"></i></a>
+        <a href="#"><i class="fas fa-angle-right"></i></a>
+    </footer>
 </body>
 </html>

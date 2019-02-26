@@ -1,0 +1,53 @@
+header {
+  width: 88%;
+  margin: 0 310px; }
+  header h1 {
+    font-size: 23px;
+    font-weight: lighter;
+    margin: 40px 0px 40px 40px;
+    color: #808080; }
+  header .fas {
+    color: #808080;
+    font-size: 25px; }
+  header form {
+    padding-top: 10px;
+    align-items: center;
+    height: 45px;
+    background: #DCDCDC;
+    box-shadow: 0 0 20px #808080; }
+    header form i {
+      margin-right: 20px; }
+    header form button {
+      border: none;
+      outline: none; }
+      header form button .fa-search {
+        margin-left: 40px; }
+    header form input {
+      width: 80%;
+      border: none;
+      outline: none;
+      background: #DCDCDC;
+      font-size: 25px; }
+    header form input[type="search"]::placeholder {
+      color: #A9A9A9;
+      font-size: 22px; }
+  header .header-filter {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DCDCDC;
+    min-width: 700px; }
+    header .header-filter select {
+      background: #DCDCDC; }
+      header .header-filter select:focus {
+        outline: none;
+        border: none; }
+    header .header-filter select, header .header-filter input {
+      width: 150px;
+      border-radius: 15px;
+      border: 1px solid #DCDCDC;
+      outline: none;
+      padding-left: 10px; }
+    header .header-filter label {
+      margin-left: 40px; }
+    header .header-filter label, header .header-filter input, header .header-filter select {
+      margin-right: 10px;
+      color: #3f3f3f; }

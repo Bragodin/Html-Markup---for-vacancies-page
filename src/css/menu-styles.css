@@ -1,9 +1,9 @@
 nav {
   position: fixed;
-  height: 100vh;
+  height: 100%;
   background: #DCDCDC;
-  width: 300px;
-  box-shadow: 0 0 12px #DCDCDC;
+  min-width: 18%;
+  box-shadow: 0 0 15px #808080;
   color: #A9A9A9; }
   nav ul li {
     list-style-type: none;
@@ -13,10 +13,4 @@ nav {
       font-weight: lighter;
       padding-top: 20px; }
     nav ul li a {
-      text-decoration: none;
-      color: #3f3f3f;
-      font-size: 25px;
-      box-sizing: border-box; }
-    nav ul li a:hover {
-      border: 1px solid black;
-      background: black; }
+      font-size: 25px; }

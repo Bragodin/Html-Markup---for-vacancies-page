@@ -1,0 +1,37 @@
+footer {
+  position: absolutes;
+  z-index: -1;
+  border-top: 1px solid #DCDCDC;
+  left: 0;
+  bottom: 0;
+  width: 88%;
+  height: 60px;
+  margin-left: 310px;
+  color: #808080;
+  padding-top: 30px;
+  display: flex; }
+  footer button {
+    position: absolute;
+    right: 65px;
+    bottom: 65px;
+    height: 90px;
+    width: 90px;
+    border: none;
+    border-radius: 50%;
+    background: #DCDCDC;
+    outline: none; }
+    footer button i {
+      font-size: 40px;
+      color: #808080; }
+  footer label {
+    margin: 0px 20px 0px 40px; }
+  footer select {
+    height: 27px;
+    border: none;
+    outline: none;
+    color: #808080; }
+  footer p {
+    margin: 0px 20px 0px 20px; }
+  footer a {
+    margin: 0px 20px 20px 0px;
+    color: #808080; }
